@@ -13,6 +13,8 @@ ul{
     list-style: none;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    height: inherit;
 }
 
 
@@ -20,16 +22,30 @@ ul{
     background: rgb(244, 178, 189);
     color: white;
     display: flex;
+    justify-content: space-between;
+    height: 90px;
 }
 
+.header li{
+    height: inherit;
+}
 .header a { 
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px ;
 }
 
 .logo img{
     width: 100px;
 }
+
+.menú{
+    height: inherit;
+}
+
 
 .principal{
 background:rgb(236, 81, 109) ;
